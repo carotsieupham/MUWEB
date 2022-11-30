@@ -1,0 +1,267 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    
+}
+#header {
+    background-color:#97212D;
+    padding: 16px 32px;
+    width: 100%;
+    display: flex;
+    height:76px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+   
+}
+#header .control{
+    display: flex;
+}
+#header .logo{
+    width: 30px;
+    height: 30px;
+}
+#header .logo-mu{
+    width: 30px;
+    
+}
+#header .nav-section{
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    
+}
+#header .nav-item li{
+    display: inline-block;
+    color: rgb(228, 213, 213);
+    padding-left: 16px;
+    list-style: none;
+    text-transform: uppercase;
+    
+}
+#header .nav-item li a{
+    text-decoration: none;
+    align-items: center;
+    color: #ccc;
+    font-weight: 570;
+    
+    
+}
+.sign li a:hover::after,
+#header .nav-item li a:hover::after{
+    transform: scale(1);
+}
+.sign li a::after,
+#header .nav-item li a::after{
+    content: " ";
+    display: block;
+    height: 3px;
+    background-color: salmon;
+    margin-top: 2px;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+#header .option{
+    
+    align-items: center;
+    display: flex;
+    
+}
+.sign li{
+    display: inline-block;
+    padding: 0px 16px;
+    font-size: 15px;
+}
+.sign li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 570;
+
+}
+
+.language{
+    float: left;
+    
+}
+.langue-select{
+    background-color: #97212D;
+    border: none;
+    color: #ccc;
+    padding: 4px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.sign-up{
+    border-left:  solid 1px #ccc;
+}
+#slider{
+   display: flex;
+   max-height: 660px;
+}
+#slider .mu-img{
+    width: 100%;
+    
+    transition: 1s;
+}
+#content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 66.66%;
+}
+#content .first-team{
+    margin:60px 0px;
+    font-size: 30px;
+    margin-left: -90px;
+    font-weight: 550;
+}
+#content .first-team::after{
+    display: block;
+    content: " ";
+    height: 3px;
+    width: 163px;
+    background-color: red
+}
+.position-name{
+    font-weight: bold;
+    font-size: 1.25em;
+    color: black;
+    border-bottom: solid rgb(216, 216, 216) 1px;
+}
+.sub-position{
+    justify-content: space-evenly;
+    display: flex;
+}
+.btn-position{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        border-radius: 10px;
+        margin: 1em;
+        position: relative;
+        overflow: hidden;
+}
+.btn-position:hover .position-img{
+    transform: scale(1.1);}
+    
+.position-img {
+    width: 250px;
+    transition: 1s;}
+
+.position-infor{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    
+}
+.position-number{
+    font-size: 10px;
+    color: #fff;
+}
+.position-number::after {
+    display: block;
+    content: " ";
+    height: 1px;
+    width: 20px;
+    background-color: red;
+    transition: 1s;
+}
+.btn-position:hover .position-number::after {
+    width: 40px}
+.name-player{
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    width: 50%;
+    font-size: 20px;
+}
+
+.manager-visual{
+    display: flex;
+    justify-content: center;
+    background-color: #3F3F3F;
+    padding-top: 3em;
+    align-items: center;
+}
+.manager-text{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+    
+}
+.role{
+    padding-bottom: 1em;
+    font-size: 1.9em;
+    position: relative;
+    top: -1.5em;
+    text-transform: uppercase;
+    margin-left: 90px;
+    color: #fff;
+    font-weight: 525;
+    
+}
+.role::after{
+    display: block;
+    content: " ";
+    height: 3px;
+    width: 150px;
+    background-color: red;
+}
+.role-name{
+    font-size: 1.6em;
+    width: 5%;
+    text-transform: uppercase;
+    margin-left: 90px;
+    color: #fff;
+    font-weight: 525;
+}
+.manager-message{
+    width: 10%;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: lighter;
+    color: #fff;
+    margin-left: 90px;
+    margin-top: 16px;
+}
+.visual-img{
+    
+   
+   margin-right: 450px;
+   
+}
+.coach-img{
+    width: 400px;
+   
+}
+.clear{
+    clear: both;
+}
+
+.sponsor{
+    padding: 64px 16px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.icon1 {
+    width: 100px;
+    margin: 0 1em;
+    opacity: 0.5;
+    height: 60px;
+}
+.icon2{
+    width: 178px;
+    margin: 0 1em;
+    opacity: 0.5;
+    height: 60px;
+}
+    
+    
